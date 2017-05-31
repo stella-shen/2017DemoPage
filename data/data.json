@@ -1,0 +1,146 @@
+{
+ "name": "user",
+ "img": "images/user.jpg",
+ "size": 160000,
+ "shape":"svg:circle",
+ "children": [
+  {
+   "name": "Topic1",
+   "shape":"svg:circle",
+   "children": [
+    {
+      "Video": "Spider-Man",
+      "name": "Peter Benjamin Parker", 
+      "link": "http://marvel.com/characters/54/spider-man",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "CAPTAIN MARVEL",
+      "name": "Carol Danvers", 
+      "link": "http://marvel.com/characters/9/captain_marvel",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "HULK", 
+      "name": "Robert Bruce Banner",
+      "link": "http://marvel.com/characters/25/hulk",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Black Widow", 
+      "name": "Natalia 'Natasha' Alianovna Romanova",
+      "link": "http://marvel.com/characters/6/black_widow",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Daredevil", 
+      "name": "Matthew Michael Murdock",
+      "link": "http://marvel.com/characters/11/daredevil",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    }
+  ]
+  },
+  {
+   "name": "Topic2",
+   "shape":"svg:circle",
+   "children": [
+    {
+      "Video": "Dr. Doom",
+      "name": "Victor von Doom", 
+      "link": "http://marvel.com/characters/13/dr_doom",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Mystique",
+      "name": "Unrevealed", 
+      "link": "http://marvel.com/characters/1552/mystique",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Red Skull",
+      "name": "Johann Shmidt", 
+      "link": "http://marvel.com/characters/1901/red_skull",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Ronan",
+      "name": "Ronan", 
+      "link": "http://marvel.com/characters/49/ronan",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    },
+    {
+      "Video": "Magneto",
+      "name": "Max Eisenhardt", 
+      "link": "http://marvel.com/characters/35/magneto",
+      "img":  "images/user.jpg",
+      "shape":"svg:rect",
+      "size": 40000
+    }
+   ]
+  },
+  {
+   "name": "Topic3",
+   "shape":"circle",
+   "children": [
+    {
+      "Video": "Avengers",
+      "name": "", 
+      "link": "http://marvel.com/characters/68/avengers",
+      "img":  "images/user.jpg",
+      "shape":"rect",
+      "size": 40000
+    },
+    {
+      "Video": "Guardians of the Galaxy",
+      "name": "", 
+      "link": "http://marvel.com/characters/70/guardians_of_the_galaxy",
+      "img":  "images/user.jpg",
+      "shape":"rect",
+      "size": 40000
+    },
+    {
+      "Video": "Defenders",
+      "name": "", 
+      "link": "http://marvel.com/characters/534/defenders",
+      "img":  "images/user.jpg",
+      "shape":"rect",
+      "size": 40000
+    },
+    {
+      "Video": "X-Men",
+      "name": "", 
+      "link": "http://marvel.com/characters/71/x-men",
+      "img":  "images/user.jpg",
+      "shape":"rect",
+      "size": 40000
+    },
+    {
+      "Video": "Fantastic Four",
+      "name": "", 
+      "link": "http://marvel.com/characters/69/fantastic_four",
+      "img":  "images/user.jpg",
+      "shape":"rect",
+      "size": 40000
+    }
+   ]
+  }  
+ ]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible">
+  <title>Cross Platform Video Recommendation</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link  rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/sidenav.min.css" type="text/css">
+  <script src="js/d3/d3.min.js" charset="utf-8"></script>
+</head>
+
+<body> 
+  <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+      <div class="sidenav-brand">
+        CRO-V Recommend!
+      </div>
+      <div class="sidenav-header">
+        Search
+      <small><input size="15" type="text" name="search" placeholder="video name"></input> <button>search</button></small>
+    </div>
+      <ul class="sidenav-menu">
+        <li>
+          <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">World Supers</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+            <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_up</i>
+            </span>
+          </a>
+
+          <ul class="sidenav-dropdown" data-sidenav-dropdown>
+            <li class="indcss"><p><img src="images/videos/7R8DeBVBCzM.jpg" width="90" height="60">Daft Punk-Around The World 00:03:58<br>By:Victor Yau</p></li>
+            <li class="indcss"><p><img src="images/videos/_PC9GJj_gb4.jpg" width="90" height="60">LL Cool J - "New York, New York" (NEW EXCLUSIVE) 00:03:58<br>By:OthmaneTV</p></li>
+            <li class="indcss"><p><img src="images/videos/5PVoHhuZqrQ.jpg" width="80" height="60">Palestinian Fishermen Resist Water Cannon Assault 00:03:01<br>By:Gaza, Palestine</p></li>
+            <li class="indcss"><p><img src="images/videos/p1RuhnjMMds.jpg" width="80" height="60">Daft Voted BEST Super Bowl Ad of 2013! Commercial 00:01:01<br>By:JustFunnies</p></li>
+            <li class="indcss"><p><img src="images/videos/eJiLoUyKegM.jpg" width="80" height="60">Anna, Dr. Rosenberg's Patient Experiences CEREC Technology 00:01:48<br>By:DrSimonRosenberg</p></li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:;" data-sidenav-dropdown-toggle>
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">All About Music</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+            <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_up</i>
+            </span>
+          </a>
+
+          <ul class="sidenav-dropdown" data-sidenav-dropdown>
+            <li><a href="javascript:;">Tempor incididunt</a></li>
+            <li><a href="javascript:;">Labore</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:;" data-sidenav-dropdown-toggle>
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">Those I.T. Things</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+            <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_up</i>
+            </span>
+          </a>
+
+          <ul class="sidenav-dropdown" data-sidenav-dropdown>
+            <li><a href="javascript:;">Aliqua</a></li>
+            <li><a href="javascript:;">Exercitation</a></li>
+            <li><a href="javascript:;">Minim veniam</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">Life And Belief</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">Through The Time</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <span class="sidenav-link-icon">
+              <i class="material-icons">comment</i>
+            </span>
+            <span class="sidenav-link-title">News</span>
+            <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+              <i class="material-icons">arrow_drop_down</i>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="javascript:;" class="toggle" id="sidenav-toggle">
+      <i class="material-icons">menu</i>
+    </a>
+  
+  <script src="js/sidenav.min.js"></script>
+  <script>$('[data-sidenav]').sidenav();</script>
+  <div>
+    <svg id="canvas-svg" width="1600" height="350">
+  </div>
+  <!--script src="js/draw_chart.js"></script-->
+  <script src="js/sidenav.min.js"></script>
+</body>
+</html>

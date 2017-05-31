@@ -1,0 +1,56 @@
+.node circle {
+  cursor: pointer;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size: 12px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.toggle {
+  display: block;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  width: 72px;
+}
+
+.indcss img{
+  vertical-align: center;
+  float: left;
+}
+
+.indcss p{
+  text-align: center;
+  font-size: 8px;
+}
